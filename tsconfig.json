@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "outDir": "./dist",
+    "lib": ["es2017"],
+    "baseUrl": "./",
+    "paths": {
+      "*": ["src/*"]
+    },
+    "typeRoots": ["src/types", "node_modules/@types"],
+    "skipLibCheck": true,
+    "rootDir": "./src",
+    "resolveJsonModule": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": ["src/**/*.ts"]
+}
